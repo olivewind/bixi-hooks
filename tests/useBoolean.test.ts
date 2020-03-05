@@ -64,20 +64,3 @@ it('should toggle state from false', () => {
 
   expect(result.current[0]).toBe(true);
 });
-
-it('should ignore non-boolean parameters and toggle state', () => {
-  const { result } = setUp(true);
-  const [, toggle] = result.current;
-
-  act(() => {
-    toggle('string');
-  });
-
-  expect(result.current[0]).toBe(false);
-
-  act(() => {
-    toggle({});
-  });
-
-  expect(result.current[0]).toBe(true);
-});
