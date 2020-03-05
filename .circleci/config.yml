@@ -92,7 +92,7 @@ jobs:
             git config --global user.email "olivewind.wang@gmail.com"
             git config --global user.name "olivewind"
             git remote rm origin
-            git remote add origin https://${GITHUB_TOKEN}@github.com/olivwind/bixi-hooks
+            git remote add origin https://${GITHUB_TOKEN}@github.com/olivewind/bixi-hooks
       - *Release
 
   master:
@@ -116,7 +116,7 @@ jobs:
             git config --global user.email "olivewind.wang@gmail.com"
             git config --global user.name "olivewind"
             git remote rm origin
-            git remote add origin https://${GITHUB_TOKEN}@github.com/olivwind/bixi-hooks
+            git remote add origin https://${GITHUB_TOKEN}@github.com/olivewind/bixi-hooks
       - *Upload_Storybook
       - *Release
 
