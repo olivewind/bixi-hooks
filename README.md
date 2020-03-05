@@ -1,11 +1,9 @@
 <div align="center">
   <h1>
     <br/>
-    <br/>
     👍
     <br />
     @bixi/hooks
-    <br />
     <br />
     <br />
     <br />
@@ -19,7 +17,7 @@
     <a href="https://www.npmjs.com/package/@bixi/hooks">
       <img src="https://img.shields.io/npm/dm/@bixi/hooks.svg" alt="npm downloads" />
     </a>
-    <a href="http://olivewind.github.io/bixi-hooks">
+    <a href="http://git.olivewind.com/bixi-hooks">
       <img src="https://img.shields.io/badge/demos-🚀-yellow.svg" alt="demos" />
     </a>
     <br />
@@ -33,15 +31,9 @@
   <br />
   <br />
   <br />
-  <br />
-  <br />
 </div>
 
-- [**生命周期**](./docs/Lifecycles.md)
-  - `useLogger` &mdash; 在每个生命周期打印日志
-    <br/>
-    <br/>
-- [**State**](./docs/State.md)
+- [**状态**](./docs/State.md)
   - `useBoolean`&mdash;  True | False
     <br/>
     <br/>
