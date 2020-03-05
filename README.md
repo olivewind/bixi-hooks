@@ -1,7 +1,7 @@
 <div align="center">
   <h1>
     <br/>
-    👍
+    🚀
     <br />
     @bixi/hooks
     <br />
@@ -13,9 +13,6 @@
     <br />
     <a href="https://www.npmjs.com/package/@bixi/hooks">
        <img src="https://img.shields.io/npm/v/@bixi/hooks.svg" alt="npm package" />
-    </a>
-    <a href="https://www.npmjs.com/package/@bixi/hooks">
-      <img src="https://img.shields.io/npm/dm/@bixi/hooks.svg" alt="npm downloads" />
     </a>
     <a href="http://git.olivewind.com/bixi-hooks">
       <img src="https://img.shields.io/badge/demos-🚀-yellow.svg" alt="demos" />
