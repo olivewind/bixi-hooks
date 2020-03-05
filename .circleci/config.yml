@@ -89,10 +89,10 @@ jobs:
       - run:
           name: Setup GitHub
           command: |
-            git config --global user.email "streamich@gmail.com"
-            git config --global user.name "streamich"
+            git config --global user.email "olivewind.wang@gmail.com"
+            git config --global user.name "olivewind"
             git remote rm origin
-            git remote add origin https://${GITHUB_TOKEN}@github.com/streamich/react-use
+            git remote add origin https://${GITHUB_TOKEN}@github.com/olivwind/bixi-hooks
       - *Release
 
   master:
@@ -113,10 +113,10 @@ jobs:
       - run:
           name: Setup GitHub
           command: |
-            git config --global user.email "streamich@gmail.com"
-            git config --global user.name "streamich"
+            git config --global user.email "olivewind.wang@gmail.com"
+            git config --global user.name "olivewind"
             git remote rm origin
-            git remote add origin https://${GITHUB_TOKEN}@github.com/streamich/react-use
+            git remote add origin https://${GITHUB_TOKEN}@github.com/olivwind/bixi-hooks
       - *Upload_Storybook
       - *Release
 
