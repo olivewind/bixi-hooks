@@ -1,24 +1,22 @@
-# `useToggle`
+# `useBoolean`
 
-React state hook that tracks value of a boolean.
+用于切换 Boolean 值.
 
-`useBoolean` is an alias for `useToggle`.
-
-## Usage
+## 使用
 
 ```jsx
-import {useToggle} from 'react-use';
+import { useBoolean } from '@bixi/hooks';
 
 const Demo = () => {
-  const [on, toggle] = useToggle(true);
+  const [on, toggle] = useBoolean(true);
 
   return (
-    <div>
-      <div>{on ? 'ON' : 'OFF'}</div>
-      <button onClick={toggle}>Toggle</button>
-      <button onClick={() => toggle(true)}>set ON</button>
-      <button onClick={() => toggle(false)}>set OFF</button>
-    </div>
+    <>
+      <div>{on ? 'True' : 'False'}</div>
+      <Button type="primary" onClick={() => toggle()}>切换</Button>
+      <Button type="primary" onClick={() => toggle(true)}>设置为 True</Button>
+      <Button type="primary" onClick={() => toggle(false)}>设置为 False</Button>
+    </>
   );
 };
 ```

@@ -1,5 +1,6 @@
-import {configure} from '@storybook/react';
-import {setOptions} from '@storybook/addon-options';
+import { configure } from '@storybook/react';
+import { setOptions } from '@storybook/addon-options';
+import 'antd/dist/antd.less'
 
 setOptions({
   sortStoriesByKind: false,
