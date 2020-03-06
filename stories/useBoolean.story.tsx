@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/react';
 import { Button } from 'antd';
 import * as React from 'react';
 import { useBoolean } from '../src';
-import ShowDocs from './util/ShowDocs';
+import Docs from './util/docs';
 
 const Demo = () => {
   const [on, toggle] = useBoolean(true);
@@ -23,5 +23,5 @@ const Demo = () => {
 };
 
 storiesOf('状态|useBoolean', module)
-  .add('Docs', () => <ShowDocs md={require('../src/useBoolean/docs.md')} />)
+  .add('Docs', () => <Docs md={require('../src/useBoolean/docs.md')} />)
   .add('Demo', () => <Demo />);

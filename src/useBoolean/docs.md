@@ -9,7 +9,6 @@ import { useBoolean } from '@bixi/hooks';
 
 const Demo = () => {
   const [on, toggle] = useBoolean(true);
-
   return (
     <>
       <div>{on ? 'True' : 'False'}</div>
