@@ -71,10 +71,12 @@
     "@types/react": "16.9.11",
     "@typescript-eslint/eslint-plugin": "2.22.0",
     "@typescript-eslint/parser": "2.22.0",
+    "antd": "4.0.1",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
     "babel-loader": "8.0.6",
     "babel-plugin-dynamic-import-node": "2.3.0",
+    "css-loader": "3.4.2",
     "eslint": "6.8.0",
     "eslint-config-react-app": "5.2.0",
     "eslint-plugin-flowtype": "4.6.0",
@@ -88,6 +90,8 @@
     "jest": "25.1.0",
     "jest-localstorage-mock": "2.4.0",
     "keyboardjs": "2.5.1",
+    "less": "3.11.1",
+    "less-loader": "5.0.0",
     "lint-staged": "10.0.8",
     "markdown-loader": "5.1.0",
     "prettier": "1.19.1",
@@ -103,12 +107,13 @@
     "rimraf": "3.0.2",
     "rxjs": "6.5.4",
     "semantic-release": "17.0.4",
+    "style-loader": "1.1.3",
+    "ts-easing": "^0.2.0",
     "ts-jest": "25.2.1",
     "ts-loader": "6.2.1",
     "ts-node": "8.6.2",
-    "typescript": "3.8.3",
-    "ts-easing": "^0.2.0",
-    "tslib": "^1.10.0"
+    "tslib": "^1.10.0",
+    "typescript": "3.8.3"
   },
   "config": {
     "commitizen": {
