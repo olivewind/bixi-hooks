@@ -4,17 +4,17 @@
 
 ## 使用
 
-```jsx
+```tsx
 import { useBoolean } from '@bixi/hooks';
 
 const Demo = () => {
-  const [on, toggle] = useBoolean(true);
+  const [state, onToggle] = useBoolean(true);
   return (
     <>
-      <div>{on ? 'True' : 'False'}</div>
-      <Button type="primary" onClick={() => toggle()}>切换</Button>
-      <Button type="primary" onClick={() => toggle(true)}>设置为 True</Button>
-      <Button type="primary" onClick={() => toggle(false)}>设置为 False</Button>
+      <div>{state ? 'True' : 'False'}</div>
+      <Button type="primary" onClick={() => onToggle()}>切换</Button>
+      <Button type="primary" onClick={() => onToggle(true)}>设置为 True</Button>
+      <Button type="primary" onClick={() => onToggle(false)}>设置为 False</Button>
     </>
   );
 };

@@ -6,10 +6,10 @@ const basedir = path.join(__dirname, '..');
 
 module.exports = async ({ config, mode }) => {
   config.module.rules.push(
-    {
-      test: /\.md?$/,
-      loader: "markdown-loader",
-    },
+    // {
+    //   test: /\.md?$/,
+    //   loader: "file-loader",
+    // },
     {
       test: /\.less$/,
       use: [{

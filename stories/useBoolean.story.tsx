@@ -1,12 +1,12 @@
 import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import { Button } from 'antd';
 import * as React from 'react';
 import { useBoolean } from '../src';
-import Docs from './util/docs';
 
 const Demo = () => {
   const [on, toggle] = useBoolean(true);
-
+  action('组件重新渲染')();
   return (
     <div style={{ padding: '20px' }}>
       <div>{on ? 'True' : 'False'}</div>
@@ -22,6 +22,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('状态|useBoolean', module)
-  .add('Docs', () => <Docs md={require('../src/useBoolean/docs.md')} />)
-  .add('Demo', () => <Demo />);
+storiesOf('状态', module)
+  .add('useBoolean', Demo, {
+    notes: require('../src/useBoolean/docs.md').default
+  })
