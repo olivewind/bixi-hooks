@@ -30,8 +30,13 @@
   <br />
 </div>
 
-- [**状态**](http://git.olivewind.com/bixi-hooks/?path=/story/%E7%8A%B6%E6%80%81-useboolean--docs)
-  - [`useBoolean`](http://git.olivewind.com/bixi-hooks/?path=/story/%E7%8A%B6%E6%80%81-useboolean--docs)&mdash;  True | False
+- [**状态**](http://git.olivewind.com/bixi-hooks/?path=/story/状态--useboolean)
+  - [`useBoolean`](http://git.olivewind.com/bixi-hooks/?path=/story/状态--useboolean)&mdash;  True | False
+    <br/>
+    <br/>
+
+- [**生命周期**](http://git.olivewind.com/bixi-hooks/?path=/story/生命周期--useunmount)
+  - [`useUnmount`](http://git.olivewind.com/bixi-hooks/?path=/story/生命周期--useunmount)&mdash;  组件销毁时触发
     <br/>
     <br/>
 
