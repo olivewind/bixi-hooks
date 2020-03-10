@@ -22,7 +22,7 @@ const Demo = () => {
   );
 };
 
-storiesOf('状态', module)
+storiesOf('生命周期', module)
   .add('useUnmount', Demo, {
     notes: require('../src/useUnmount/docs.md').default
   })
