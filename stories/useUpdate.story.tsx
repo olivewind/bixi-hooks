@@ -7,10 +7,11 @@ import { useUpdate } from '../src';
 const Demo = () => {
   const update = useUpdate();
   return (
-    <>
+    <div style={{ padding: '20px' }}>
       <div>Time: {Date.now()}</div>
-      <button onClick={update}>Update</button>
-    </>
+      <Button type="primary" onClick={() => update()}>刷新</Button>
+      <br />
+    </div>
   );
 };
 
