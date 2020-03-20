@@ -4,12 +4,6 @@
   http://jedwatson.github.io/classnames
 */
 
-/*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/
-
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation. All rights reserved.
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
@@ -24,6 +18,12 @@ MERCHANTABLITY OR NON-INFRINGEMENT.
 See the Apache Version 2.0 License for specific language governing permissions
 and limitations under the License.
 ***************************************************************************** */
+
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
 
 /*!
  * https://github.com/es-shims/es5-shim
