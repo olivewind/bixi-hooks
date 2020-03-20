@@ -38,6 +38,7 @@
 - [**生命周期**](http://git.olivewind.com/bixi-hooks/?path=/story/生命周期--useunmount)
   - [`useUnmount`](http://git.olivewind.com/bixi-hooks/?path=/story/生命周期--useunmount)&mdash;  组件销毁时触发
   - [`useUpdate`](http://git.olivewind.com/bixi-hooks/?path=/story/生命周期--useupdate)&mdash;  强制重新渲染
+  - [`useMountedState`](http://git.olivewind.com/bixi-hooks/?path=/story/生命周期--useMountedState)&mdash;  检查组件是否挂载
     <br/>
     <br/>
 
