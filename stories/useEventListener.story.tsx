@@ -1,10 +1,3 @@
-/**
- * title: Default usage
- * desc: Click the button to preview.
- *
- * title.zh-CN: 基本用法
- * desc.zh-CN: 点击按钮查看效果。
- */
 import { storiesOf } from '@storybook/react';
 import React, { useState } from 'react';
 import { useEventListener } from '../src';
