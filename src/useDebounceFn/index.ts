@@ -35,7 +35,6 @@ function useDebounceFn<T extends any[]>(
   const run = useCallback(
     (...args: any) => {
       cancel();
-      console.log('run', deps)
       timer.current = setTimeout(() => {
         fnRef.current(...args);
       }, _wait);
