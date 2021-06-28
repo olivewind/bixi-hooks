@@ -96,7 +96,7 @@
     "lint-staged": "10.0.8",
     "markdown-loader": "5.1.0",
     "prettier": "1.19.1",
-    "prismjs": "1.19.0",
+    "prismjs": "1.24.0",
     "raf-stub": "3.0.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
